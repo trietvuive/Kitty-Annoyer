@@ -1,0 +1,6 @@
+version: "3.9"
+services:
+    cat:
+        build: .
+        env_file:
+           - ./env/cat.env
